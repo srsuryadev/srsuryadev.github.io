@@ -8,8 +8,8 @@ description: personal
 	<p>Graduate student in Computer Science in University of Wisconsin - Madison.</p>
 	<p id = "aboutme" >
 	<h2>About me</h2>
-	I am a graduate student in Computer Science in the University of Wisconsin - Madison. Currently, I am a research-assistant focusing on Database systems
-	with the Prof. Jignesh Patel. I am interested in courses and projects that involves building systems for data analytics workload.
+	<B>I am a graduate student in Computer Science in the University of Wisconsin - Madison. Currently, I am a research-assistant focusing on Database systems
+	with the Prof. Jignesh Patel.</B> I am interested in courses and projects that involves building systems for data analytics workload.
 	</p>
 	<p id = "education">
 	<h2>Education</h2>
@@ -26,27 +26,40 @@ description: personal
 	</p>
 	<p id = "projects">
 	<h2>Projects</h2>
+	<ul>
+	<li>
 	<p><h3>Lazy Learned Indexes in Key-Value store based on LSM [<a href="/data/lazy_learning_report.pdf">Report</a>]</h3>
 	The existing system called Bourbon based on LevelDB was using learned indices to improve the lookup latency. To make the learning resource-efficient, we proposed a new strategy called lazy learning. The lazy learned indexes to delay model learning until the first query arrives at the file. We saw 13% fewer models being learned for the workload with hot spots with lazy learning and with very minimal degradation in the latency of GET and PUT operations.	</p>
-	
+	</li>
+	<li>
 	<p><h3>Image Compression for Computer Vision Systems [<a href="https://srsuryadev.github.io/img-compression-cv-proj/">Report</a>]</h3>
 	Built an image compression pipeline by retaining only the semantically important information for the target computer vision system. Depth based approach is used to identify the semantically important region. 20% savings on image file size is achieved. To measure the information loss, EAST is used to detect the information (text content) in the compressed image, and it is able to detect with an accuracy of 84%. In another approach, a separate encoding was learned for the image using FRIC network with the Inception v3 as the target computer vision system. A higher average compression rate of 46.2% with an accuracy of 52% is achieved.Technology: Python.
 	</p>
+	</li>
+	<li>
 	<p><h3>A study of learning knowledge graph embeddings at scale [<a href="/data/dist_kg_emb_report.pdf">Report</a>]</h3>
 	This project is aimed to study the performance and resource consumption for learning the knowledge graph embeddings in a distributed manner for different parameters and different types of datasets.	</p>
 	</p>
+	</li>
+	<li>
 	<p><h3>A single-node durable key-value store </h3>
 	Implemented a simple key-value store with a skip list as the in-memory store and log-structured merge trees to store the data in the disk. The write-ahead logging was used to keep the data durable. Technology: C++	</p>
 	</p>
+	</li>
+	<li>
 	<p><h3>Performance analysis of BitWeaving Implementation in Rust</h3>
 	Implemented the BitWeaving (SIGMOD’13) in Rust and compared its performance with the naive scan and its original implementation C++. In this project, 128 bit SIMD instructions are used to improve and study its performance. Each element in the list is able to scan at the average cost of 2 CPU cycles per value. Technology: Rust.	</p>
 	<p><h3>Music Recommender System using Multi-Node Hadoop Cluster</h3>
 	We used a hybrid method for recommending songs from the dataset in the hdfs to overcome some of the disadvantages of filtering techniques when used in isolation. For content-based filtering, K-means clustering was used to cluster the songs and Pearson correlation coefficient for collaboration based filtering to find the similarity among users.
 	</p>
+	</li>
+	<li>
 	<p>
-	<h3>Automatic Lyric Generation based on Neuro-Linguistics <a href = "https://dl.acm.org/citation.cfm?id=2982128">Report</a></h3>
+	<h3>Automatic Lyric Generation based on Neuro-Linguistics [<a href = "https://dl.acm.org/citation.cfm?id=2982128">Report</a>]</h3>
 	A research project for extending the lyric generation model (ontology graph) to generate lyrics based on author's stylometry and the backdrop context in the lyric. Word statistics for authors were built by parsing their previous works and object detection was used to build backdrop context (Caffe framework was used) and use it in the lyric.
 	</p>
+	</li>
+	</ul>
 	</p>
 
 	<p id = "technologyinterests">
