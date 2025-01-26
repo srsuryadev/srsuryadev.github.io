@@ -1,22 +1,4 @@
----
-title: 'About <subject>'
-shortTitle: '<subject>'
-intro: 'Article intro. See tips for a great intro below.'
-product: "optional product callout"
-type: overview
-topics:
-  - topic
-versions:
-  - version
----
 
-{% comment %}
-- Follow the guidelines in https://docs.github.com/contributing/writing-for-github-docs/content-model#conceptual to write this article.
-- Great intros give readers a quick understanding of what's in the article, so they can tell whether it's relevant to them before moving ahead. For more tips, see https://docs.github.com/contributing/writing-for-github-docs/content-model
-- For product callout info, see https://github.com/github/docs/tree/main/content#product
-- For product version instructions, see https://github.com/github/docs/tree/main/content#versioning
-- Remove these comments from your article file when you're done writing.
-{% endcomment %}
 
 ## A section here
 
